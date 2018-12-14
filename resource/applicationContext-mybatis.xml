@@ -62,6 +62,6 @@
  	</tx:advice>
     
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-    	<property name="basePackage" value="cn.appsys.dao"/>
+    	<property name="basePackage" value="cn.appsys.mapper"/>
     </bean>       
 </beans>
